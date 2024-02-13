@@ -1,0 +1,24 @@
+@import 'vars';
+
+
+.projects-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-container {
+    display: flex;
+    width: 90%;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1.25rem;
+    background: #FFF; 
+    margin-bottom: 10rem;
+}
+
+
+

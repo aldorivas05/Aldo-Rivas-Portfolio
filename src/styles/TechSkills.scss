@@ -1,0 +1,119 @@
+@import 'vars';
+
+
+.tech-skills-container {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    place-items: center;
+    overflow: hidden;
+    background-color: transparent !important;
+    --circleDiameter: 200px;
+    --planets: calc(var(--circleDiameter) / 10)
+}
+
+
+.tech-skills-section {
+    position:relative;
+    width: var(--circleDiameter);
+    height: var(--circleDiameter)
+}
+
+.tech-skills-title {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius:10px;
+    width:90px;
+    height:90px;
+}
+
+.tech-skills-icons-sections {
+    position: relative;
+    top: -7px;
+    left:-7px;
+    width: 100%;
+    height: 100%;
+    // border: 7px solid black ;
+    border-radius: 100%;
+    animation: rotate 30s linear infinite;
+}
+
+.orbit-icon {
+    position: absolute;
+    width: var(--planets);
+    height: var(--planets);
+    border-radius: 100%;
+    animation: maintain 30s linear infinite;
+    background-color: transparent;
+}
+
+.orbit-icon:nth-child(1) {
+    top: calc(-1 * var(--planets) / 5);
+    left: calc(var(--circleDiameter)/ 5 - var(--planets) / 5)
+}
+
+.orbit-icon:nth-child(2) {
+    top: calc(var(--circleDiameter)/ 4 + var(--planets) / 5);
+    right: calc(-1 * var(--planets) / 1.7);
+}
+
+.orbit-icon:nth-child(3) {
+    top: calc(var(--circleDiameter)/ 5 - var(--planets) / 5);
+    left: calc(-1 * var(--planets) / 5);
+}
+
+.orbit-icon:nth-child(4) {
+    left: calc(var(--circleDiameter)/ 2.5 - var(--planets) / 2);
+    bottom: calc(-1 * var(--planets) / 1);
+}
+.orbit-icon:nth-child(5) {
+    right: calc(var(--circleDiameter)/2  - var(--planets) / 2);
+    top: calc(-1 * var(--planets) / 1);
+}
+
+
+.orbit-icon:nth-child(6) {
+    top: calc(var(--circleDiameter)/ 2 - var(--planets) / 2);
+    left: calc(-1 * var(--planets) / 1);
+}
+
+.orbit-icon:nth-child(7) {
+    top: calc(-1 * var(--planets) / -2);
+    right: calc(var(--circleDiameter)/ 7.5 - var(--planets) / 5);
+}
+
+.orbit-icon:nth-child(8) {
+    right: calc(-1 * var(--planets) / 5);
+    bottom: calc(var(--circleDiameter)/ 4 - var(--planets) / -2);
+}
+
+.orbit-icon:nth-child(9) {
+    right: calc(var(--circleDiameter)/ 5 - var(--planets) / 5);
+    bottom: calc(-1 * var(--planets) / 5);
+}
+
+.orbit-icon:nth-child(10) {
+    bottom: calc(var(--circleDiameter)/ 10 + var(--planets) / 5);
+    left: calc(1 * var(--planets) / 5);
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0)
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes maintain {
+  0% {
+        transform: rotate(0);
+    }
+  100% {
+        transform: rotate(-360deg);
+    }
+}
+
