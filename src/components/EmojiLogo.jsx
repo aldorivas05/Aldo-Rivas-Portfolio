@@ -7,8 +7,8 @@ const EmojiLogo = () => {
     return (
         <div className='emoji-logo-container'>
             <img src={EmojiImage} alt="aldo logo sticker" />
-            <h3>Aldo Rivas</h3>
-            <p>FrontEnd Developer</p>
+            <h2>Aldo Rivas</h2>
+            <p>Frontend Developer</p>
         </div>
     )
 };

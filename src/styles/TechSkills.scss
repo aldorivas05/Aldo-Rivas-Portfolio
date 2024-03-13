@@ -3,12 +3,12 @@
 
 .tech-skills-container {
     display: grid;
-    width: 100%;
-    height: 100vh;
+    width: 30rem;
+    height: 30rem;
     place-items: center;
     overflow: hidden;
     background-color: transparent !important;
-    --circleDiameter: 200px;
+    --circleDiameter: 350px;
     --planets: calc(var(--circleDiameter) / 10)
 }
 
@@ -21,6 +21,9 @@
 
 .tech-skills-title {
     position:absolute;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
@@ -44,9 +47,10 @@
     position: absolute;
     width: var(--planets);
     height: var(--planets);
-    border-radius: 100%;
+    border-radius: 10px;
     animation: maintain 30s linear infinite;
     background-color: transparent;
+    opacity: 20%;
 }
 
 .orbit-icon:nth-child(1) {

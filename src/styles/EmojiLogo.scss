@@ -1,18 +1,24 @@
 @import 'vars';
 
 .emoji-logo-container {
+    width: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    z-index: 50;
 }
 
-img {
-    width: 240px;
-    height: 200px;
+.emoji-logo-container img {
+    width: 140px;
+    height: 100px;
 }
 
+.emoji-logo-container h2 {
+    margin-bottom: 0;
+}
 
-p {
+.emoji-logo-container p {
+    width: 200px;
     margin-top: 0;
 }

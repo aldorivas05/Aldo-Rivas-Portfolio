@@ -10,6 +10,7 @@ import { JavascriptIcon } from "../assets/icons/JavascriptIcon";
 import { Html5Icon } from "../assets/icons/Html5Icon";
 import { GitIcon } from "../assets/icons/GitIcon";
 import '../styles/TechSkills.scss' 
+import { EmojiLogo } from "./EmojiLogo";
 
 
 
@@ -20,7 +21,7 @@ const TechSkills = () => {
         <div className="tech-skills-container">
             <div className="tech-skills-section">
                 <div className="tech-skills-title">
-                    <h2>Tech Skills</h2>
+                    <EmojiLogo />
                 </div>
                 <div className="tech-skills-icons-sections">
                     <div className="orbit-icon">

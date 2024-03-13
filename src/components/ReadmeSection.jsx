@@ -1,11 +1,15 @@
 import React from "react"
+import { useSelector } from "react-redux";
 import { CloseIcons } from "../assets/icons/CloseIcon";
 import { MinimizeIcon } from "../assets/icons/MinimizeIcon";
 import { MiximizeIcon } from "../assets/icons/MiximizeIcon";
 import '../styles/ReadmeSection.scss'
 
 
+
 const ReadmeSection = () => {
+    const currentLanguage = useSelector(state => state.language); 
+
     return (
         <div className="readme-continer">
             <div className="readme-header">
@@ -14,6 +18,9 @@ const ReadmeSection = () => {
                     <MinimizeIcon />
                     <MiximizeIcon />
                 </div>
+                {/* <div className="tap-readme">
+                    <TabReadme />
+                </div> */}
             </div>
             <div className="readme-code-section">
                 <div className="number-list-container">
@@ -57,33 +64,52 @@ const ReadmeSection = () => {
                             <code>
                                 8
                             </code>
-                            <li>
+                        </li>
+                        <li>
                             <code>
                                 9
                             </code>
-                            <li>
+                        </li>
+                        <li>
                             <code>
                                 10
                             </code>
                         </li>
+                        <li>
+                            <code>
+                                11
+                            </code>
                         </li>
+                        <li>
+                            <code>
+                                12
+                            </code>
+                        </li>
+                        <li>
+                            <code>
+                                13
+                            </code>
                         </li>
                     </ol>
                 </div>
                 <div className="text-readme-container">
                     <pre>
                         <code>
-                            <span># Getting Started with Create React App. 👨🏻‍💻</span>
-                            <span>This project was bootstrapped with</span>
-                            <span>[Create React App](https://github.com/facebook/create-react-app).</span>
-                            <span>## Available Scripts</span>
-                            <span>### `npm start`</span>
-                            <span>Launches the test runner in the interactive watch mode.\</span>
-                            <span>See the section about [running tests]</span>
-                            <span>(https://facebook.github.io/create-react-app/docs/running-tests)</span>
-                            <span>  </span>
-                            <span>for more information.</span>
-                            <span>### `npm run build`</span>
+                            <span className="line1"># Aldo Rivas 👨🏻‍💻👨🏻‍🔧</span>
+                            <span> </span>
+                            <span className="line2">{currentLanguage.translations[currentLanguage.language].iamAldo}</span>
+                            <span className="line3"> </span>
+                            <span className="line4">{currentLanguage.translations[currentLanguage.language].technologies}</span>
+                            <span> </span>
+                            <span className="line5">{currentLanguage.translations[currentLanguage.language].programming}</span>
+                            <span className="line6">{currentLanguage.translations[currentLanguage.language].frameworks}</span>
+                            <span className="line7">{currentLanguage.translations[currentLanguage.language].others}</span>
+                            <span className="line8"> </span>
+                            <span className="line9"><span className="line9-1">{currentLanguage.translations[currentLanguage.language].thanks}</span>{currentLanguage.translations[currentLanguage.language].thanks2}</span>
+                            <span className="line10"></span>
+                            <span className="line11"></span>
+                            <span className="line12"></span>
+                            <span className="line13"></span>
                         </code>
                     </pre>
                 </div>
