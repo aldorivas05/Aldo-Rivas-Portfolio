@@ -1,0 +1,16 @@
+{
+    "welcome": "Bienvenido",
+    "download": "Descargar CV",
+    "projects": "Proyectos",
+    "english": "Inglés",
+    "spanish": "Español",
+    "technologies": "## Tecnologías",
+    "iamAldo": "¡Hola! Soy Aldo Rivas, un ingeniero mecánico apasionado por la tecnología y el desarrollo de software. Durante la pandemia, decidí aventurarme en el mundo de la programación y desde entonces no he dejado de explorar.",
+    "programming": "- Lenguajes de programación: JavaScript, TypeScript.",
+    "frameworks": "- Frameworks: React, Redux ⚛️.",
+    "others": "- Otros: Git, HTML, CSS, NodeJS, Tailwind, SASS.",
+    "thanks": "**¡Gracias por visitar mi página!**",
+    "thanks2": " Si tienes alguna sugerencia o comentario para mejorarla, estaré encantado de escucharlo. 😊",
+    "copy": "Copiar",
+    "copied": "Copiado!"
+}

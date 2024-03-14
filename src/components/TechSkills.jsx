@@ -1,16 +1,16 @@
-import React from "react";
-import { Css3Icon } from "../assets/icons/Css3Icon";
+import React              from "react";
+import { Css3Icon }       from "../assets/icons/Css3Icon";
 import { TypescriptIcon } from "../assets/icons/TypescriptIcon";
-import { ViteIcon } from "../assets/icons/ViteIcon";
-import { ReactIcon } from "../assets/icons/ReactIcon";
-import { TailwindIcon } from "../assets/icons/TailwindIcon";
-import { NodeIcon} from "../assets/icons/NodeIcon";
-import { SassIcon } from "../assets/icons/SassIcon";
+import { ViteIcon }       from "../assets/icons/ViteIcon";
+import { ReactIcon }      from "../assets/icons/ReactIcon";
+import { TailwindIcon }   from "../assets/icons/TailwindIcon";
+import { NodeIcon}        from "../assets/icons/NodeIcon";
+import { SassIcon }       from "../assets/icons/SassIcon";
 import { JavascriptIcon } from "../assets/icons/JavascriptIcon";
-import { Html5Icon } from "../assets/icons/Html5Icon";
-import { GitIcon } from "../assets/icons/GitIcon";
+import { Html5Icon }      from "../assets/icons/Html5Icon";
+import { GitIcon }        from "../assets/icons/GitIcon";
+import { EmojiLogo }       from "./EmojiLogo";
 import '../styles/TechSkills.scss' 
-import { EmojiLogo } from "./EmojiLogo";
 
 
 

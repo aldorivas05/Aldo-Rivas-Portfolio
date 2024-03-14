@@ -1,0 +1,16 @@
+{
+    "welcome": "Welcome",
+    "download": "Download CV",
+    "projects": "Projects",
+    "english": "English",
+    "spanish": "Spanish",
+    "technologies": "## Technologies",
+    "iamAldo": "Hi! I'm Aldo Rivas, a mechanical engineer passionate about technology and software development. During the pandemic, I decided to venture into the world of programming, and I haven't stopped exploring since.",
+    "programming": "- Programming languages: JavaScript, TypeScript.",
+    "frameworks": "- Frameworks: React, Redux ⚛️.",
+    "others": "- Others: Git, HTML, CSS, NodeJs, Tailwind, SASS.",
+    "thanks": "**Thank you for visiting my page!**",
+    "thanks2": " If you have any suggestions or comments to improve it, I'd be happy to hear them. 😊",
+    "copy": "Copy",
+    "copied": "Copied!"
+}

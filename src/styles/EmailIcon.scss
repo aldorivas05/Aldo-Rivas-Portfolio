@@ -1,0 +1,54 @@
+
+
+.email-icon-container {
+    cursor: pointer;
+    text-decoration: none;
+    background-color: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+
+  
+.email-icon-container:focus {
+    outline: none;
+    border: 2px solid #e5e5e5; /* azul claro */
+}
+  
+/* Contenido del popover */
+.popover-content {
+    display: block; /* Oculto inicialmente */
+    position: absolute;
+    background-color: rgb(40, 40, 40);
+    border: 1px solid rgb(53, 53, 53); /* gris claro */
+    border-radius: 5px;
+    padding: 5px;
+    width: 80px; /* Ancho máximo del popover */
+    height: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+    z-index: 10; /* Arriba de otros elementos */
+    transform: translate(-25%, -240%);
+    text-align: center;
+    cursor: pointer;
+}
+p {
+    width: 80px;
+    margin: 0;
+    height: 30px;
+    font-size: small;
+}
+  
+.popover-content.active {
+    display: block; /* Visible cuando se activa */
+}
+  
+/* Flecha del popover */
+.popover-content::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent rgb(53, 53, 53) transparent;
+    transform: rotate(-180deg);
+}
+

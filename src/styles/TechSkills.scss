@@ -121,3 +121,12 @@
     }
 }
 
+@media screen and (max-width: 767px) {
+    .tech-skills-container {
+        width: 20rem;
+        height: 20rem;
+        --circleDiameter: 250px;
+        margin-top: 0px;
+    }
+    
+}

@@ -1,8 +1,7 @@
-import React from "react";
-import '../styles/FrontEndContainer.scss'
-// import { EmojiLogo } from "../components/EmojiLogo";
+import React             from "react";
 import { ReadmeSection } from "../components/ReadmeSection";
-import { TechSkills } from "../components/TechSkills";
+import { TechSkills }    from "../components/TechSkills";
+import '../styles/FrontEndContainer.scss'
 
 
 const FrontEndContainer = () => {

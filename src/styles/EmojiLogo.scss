@@ -22,3 +22,21 @@
     width: 200px;
     margin-top: 0;
 }
+
+@media screen and (max-width: 767px) {
+    .emoji-logo-container img {
+        width: 100px;
+        height: 750px;
+    }
+    .emoji-logo-container h2 {
+        margin-bottom: 0;
+        margin-top: 10px;
+        font-size: medium;
+    }
+    .emoji-logo-container p {
+        width: 200px;
+        margin-top: 0;
+        font-size: medium;
+    }
+    
+}
