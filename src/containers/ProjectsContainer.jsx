@@ -10,11 +10,13 @@ const ProjectsContainer = () => {
         <div className="projects-section">
             <h3>{currentLanguage.translations[currentLanguage.language].projects}</h3>
             <div className="projects-container">
-                <ProjectCard />
-                <ProjectCard />
-                <ProjectCard />
-                <ProjectCard />
-                <ProjectCard />
+                <div className="projects-card-section">
+                    <ProjectCard />
+                    <ProjectCard />
+                    <ProjectCard />
+                    <ProjectCard />
+                    <ProjectCard />
+                </div>
             </div>
         </div>
     )

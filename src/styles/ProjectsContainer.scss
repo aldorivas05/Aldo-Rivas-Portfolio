@@ -5,21 +5,36 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+}
+.projects-section h3 {
+    margin-left: 5%;
 }
 
 .projects-container {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects-card-section {
     width: 90%;
-    height: 60%;
+    height: 50%;
     display: flex;
-    justify-content: space-between;
+    // justify-content: space-between;
     align-items: center;
     border-radius: 1.25rem;
     background: #FFF; 
     margin-bottom: 10rem;
-    overflow-x: auto;
+    overflow-wrap: normal;
 }
 
-
+@media screen and (max-width: 767px) {
+    
+    
+    .projects-card-section {
+        
+        margin-bottom: 5rem;
+    }
+    
+}
 
