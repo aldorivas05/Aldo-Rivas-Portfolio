@@ -1,10 +1,11 @@
 import React from 'react';
+import PropTypes from "prop-types";
 import { useSelector, useDispatch } from 'react-redux';
 import { setLanguage } from '../actions/translationAction';
 import '../styles/MenuLanguage.scss';
 
 
-const MenuLanguage =() => {
+const MenuLanguage =({ toggle, setToggle}) => {
 
     
     const dispatch = useDispatch();
@@ -14,6 +15,8 @@ const MenuLanguage =() => {
     const toggleLanguage = () => {
         const newLanguage = currentLanguage.language === 'en' ? 'es' : 'en';
         dispatch(setLanguage(newLanguage));
+
+        setToggle(!toggle);
     };
     
     const welcomeMessage = currentLanguage.translations[currentLanguage.language].welcome;
@@ -36,6 +39,13 @@ const MenuLanguage =() => {
         </div>
     )
 };
+
+// Agregar la validación de PropTypes
+MenuLanguage.propTypes = {
+    toggle: PropTypes.bool.isRequired,
+    setToggle: PropTypes.func.isRequired,
+};
+
 
 
 export { MenuLanguage };

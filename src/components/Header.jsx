@@ -24,7 +24,7 @@ const Header = () => {
                     </div>
                 </div>
 
-                {toggle && <MenuLanguage toggle={toggle}/>}
+                {toggle && <MenuLanguage toggle={toggle} setToggle={setToggle}/>}
             </nav>
         </div>
     )
