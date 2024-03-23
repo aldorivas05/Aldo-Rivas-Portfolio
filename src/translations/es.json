@@ -13,7 +13,10 @@
     "thanks2": " Si tienes alguna sugerencia o comentario para mejorarla, estaré encantado de escucharlo. 😊",
     "previousJobs":"Trabajos Previos",
     "askaway": "AskAway es una plataforma que automatiza el proceso de entrevistas. Permite realizar entrevistas de video unidireccionales, lo que simplifica la preselección y ayuda a encontrar al candidato perfecto de manera eficiente. Puedes seleccionar currículums, enviar invitaciones a los candidatos seleccionados, evaluar sus respuestas y colaborar con colegas en la evaluación.",
-    "scoby": "Scoby Society Enfocado en NFT's tiene como objetivo apoyar a sus miembros en la construcción de relaciones auténticas y saludables en línea. A través de esta aplicación, academia, estudio, blog y otros sistemas de comunicación, invitamos a las personas a relacionarse consigo mismas y con los demás de maneras nuevas e inspiradoras, dejando atrás patrones obsoletos que ya no les sirven.",
+    "scoby": "Scoby Society Enfocado en NFT's tiene como objetivo apoyar a sus miembros en la construcción de relaciones auténticas y saludables en línea. A través de esta app, academia, estudio, blog y otros sistemas de comunicación, invitamos a las personas a relacionarse consigo mismas y con los demás de maneras nuevas e inspiradoras, dejando atrás patrones obsoletos que ya no les sirven.",
+    "CodeVideo":"CodeVideo es un proyecto desarrollado en React que, mediante custom hooks realiza solicitudes a la API de YouTube para obtener detalles sobre las listas de reproducción y sus elementos. A través de solicitudes de datos renderiza y reproduce listas de reproducción del canal de YouTube Netflix.",
+    "Ecommerce":"Ecommerce React Shop es un proyecto hecho con React. A través de peticiones a una API falsa de comercio electrónico, la app ofrece una experiencia completa que incluye la pantalla de inicio, el flujo de login y agregar productos al carrito. 🛒",
+    "ToDo":"ToDo App es una aplicación diseñada para crear y completar tareas. Utiliza Providers para gestionar el estado de la aplicación de manera eficiente. Cuenta con persistencia de datos mediante el uso del local storage, que permite que los datos de las tareas se mantengan incluso después de cerrar la aplicación. 📝✅",
     "copy": "Copiar",
     "copied": "Copiado!"
 }

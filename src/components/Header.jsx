@@ -19,7 +19,10 @@ const Header = () => {
             <nav>
                 <div className="header-nav-bar" >
                     <DownloadCV />
-                    <div onClick={handleToggle}>
+                    <div
+                    className="languaje-continer" 
+                    onClick={handleToggle}
+                    >
                         <LanguageIcon />
                     </div>
                 </div>

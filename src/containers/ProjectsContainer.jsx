@@ -1,7 +1,9 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import '../styles/ProjectsContainer.scss'
-import { ProjectCard } from "../components/ProjectCard";
+import { CodeVideoCard } from "../components/CodeVideoCard";
+import { EcommerceCard } from "../components/EcommerceReact";
+import { ToDoAppCard } from "../components/ToDoAppCard";
 
 const ProjectsContainer = () => {
     const currentLanguage = useSelector(state => state.language);
@@ -11,11 +13,11 @@ const ProjectsContainer = () => {
             <h3>{currentLanguage.translations[currentLanguage.language].projects}</h3>
             <div className="projects-container">
                 <div className="projects-card-section">
-                    <ProjectCard />
-                    <ProjectCard />
-                    <ProjectCard />
-                    <ProjectCard />
-                    <ProjectCard />
+                    <EcommerceCard />
+                    <CodeVideoCard />
+                </div>
+                <div className="projects-card-section ToDoCard">
+                    <ToDoAppCard />
                 </div>
             </div>
         </div>

@@ -9,11 +9,13 @@ const ScobySocialCard = () => {
     return (
     <div className="scoby-card-container">
         <div className="text-card-scoby">
-            <a href="">Scoby Social</a>
+            <a href="https://www.linkedin.com/company/scoby/about/">Scoby Social</a>
             <p>{currentLanguage.translations[currentLanguage.language].scoby}</p>
         </div>
-        <div className="image-section">
-            <img src={ScobyImage} alt="" />
+        <div className="image-section-scoby">
+            <a href="https://www.linkedin.com/company/scoby/about/">
+                <img src={ScobyImage} alt=" Scoby Image" />
+            </a>
         </div>
 
     </div>

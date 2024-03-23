@@ -32,21 +32,21 @@
     margin-bottom: 20px;
 }
 
-.text-card-askaway p
- {
+.text-card-askaway p {
     width: 100%;
     margin: 10px 0 0 0;
     color: rgb(252, 252, 252);
     font-size: 14px;
 }
 
-.image-container img
+.image-container-askaway img
  {
     position: relative;
     width: 460px;
     height: 180px;
     margin: 0px;
     border-radius: 16px;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 767px) {
@@ -55,7 +55,7 @@
         gap: 2rem;
         height: 20rem;
     }
-    .image-container img {
+    .image-container-askaway img {
         width: 300px;
         height: 120px;
       
