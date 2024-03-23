@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://github.com/aldorivas05/Aldo-Rivas-Portfolio/",
+  "homepage": "https://github.com/aldorivas05/Aldo-Rivas-Portfolio/build",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.1",
