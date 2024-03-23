@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/aldorivas05/Aldo-Rivas-Portfolio.git/static/css/main.703e3e82.css",
+    "main.js": "/aldorivas05/Aldo-Rivas-Portfolio.git/static/js/main.7b40c0b5.js",
+    "static/js/845.185071e5.chunk.js": "/aldorivas05/Aldo-Rivas-Portfolio.git/static/js/845.185071e5.chunk.js",
+    "static/media/ScobyImage.png": "/aldorivas05/Aldo-Rivas-Portfolio.git/static/media/ScobyImage.ce97cc71aee914d8f1de.png",
+    "static/media/CodeVideo.png": "/aldorivas05/Aldo-Rivas-Portfolio.git/static/media/CodeVideo.7ef566288c7b802eb19d.png",
+    "static/media/Ecommerce-React.png": "/aldorivas05/Aldo-Rivas-Portfolio.git/static/media/Ecommerce-React.2c342814d079df9024ce.png",
+    "static/media/ToDoApp.png": "/aldorivas05/Aldo-Rivas-Portfolio.git/static/media/ToDoApp.8f9b774c1a4f89b008fd.png",
+    "static/media/ALDO_RIVAS_FRONTEND_DEVes.pdf": "/aldorivas05/Aldo-Rivas-Portfolio.git/static/media/ALDO_RIVAS_FRONTEND_DEVes.fca9f31ff3ee6f09b5b7.pdf",
+    "static/media/ALDO_RIVAS_FRONTEND_DEVen.pdf": "/aldorivas05/Aldo-Rivas-Portfolio.git/static/media/ALDO_RIVAS_FRONTEND_DEVen.286892147bba0b369b8f.pdf",
+    "static/media/aldo-logo-sticker.png": "/aldorivas05/Aldo-Rivas-Portfolio.git/static/media/aldo-logo-sticker.91e98c58624846abe1ba.png",
+    "index.html": "/aldorivas05/Aldo-Rivas-Portfolio.git/index.html",
+    "main.703e3e82.css.map": "/aldorivas05/Aldo-Rivas-Portfolio.git/static/css/main.703e3e82.css.map",
+    "main.7b40c0b5.js.map": "/aldorivas05/Aldo-Rivas-Portfolio.git/static/js/main.7b40c0b5.js.map",
+    "845.185071e5.chunk.js.map": "/aldorivas05/Aldo-Rivas-Portfolio.git/static/js/845.185071e5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.703e3e82.css",
+    "static/js/main.7b40c0b5.js"
+  ]
+}
