@@ -125,7 +125,11 @@ const ReadmeSection = () => {
                                 20
                             </code>
                         </li>
-                        
+                        <li className="li-hidden">
+                            <code>
+                                21
+                            </code>
+                        </li>
                     </ol>
                 </div>
                 <div className="text-readme-container">
