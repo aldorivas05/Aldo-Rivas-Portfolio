@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Aldo-Rivas-Portfolio/static/css/main.703e3e82.css",
+    "main.css": "/Aldo-Rivas-Portfolio/static/css/main.c1d67500.css",
     "main.js": "/Aldo-Rivas-Portfolio/static/js/main.71a3200e.js",
     "static/js/845.185071e5.chunk.js": "/Aldo-Rivas-Portfolio/static/js/845.185071e5.chunk.js",
     "static/media/ScobyImage.png": "/Aldo-Rivas-Portfolio/static/media/ScobyImage.ce97cc71aee914d8f1de.png",
@@ -11,12 +11,12 @@
     "static/media/ALDO_RIVAS_FRONTEND_DEVen.pdf": "/Aldo-Rivas-Portfolio/static/media/ALDO_RIVAS_FRONTEND_DEVen.286892147bba0b369b8f.pdf",
     "static/media/aldo-logo-sticker.png": "/Aldo-Rivas-Portfolio/static/media/aldo-logo-sticker.91e98c58624846abe1ba.png",
     "index.html": "/Aldo-Rivas-Portfolio/index.html",
-    "main.703e3e82.css.map": "/Aldo-Rivas-Portfolio/static/css/main.703e3e82.css.map",
+    "main.c1d67500.css.map": "/Aldo-Rivas-Portfolio/static/css/main.c1d67500.css.map",
     "main.71a3200e.js.map": "/Aldo-Rivas-Portfolio/static/js/main.71a3200e.js.map",
     "845.185071e5.chunk.js.map": "/Aldo-Rivas-Portfolio/static/js/845.185071e5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.703e3e82.css",
+    "static/css/main.c1d67500.css",
     "static/js/main.71a3200e.js"
   ]
 }
